@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reform.Cli", "src\Reform.Cli\Reform.Cli.csproj", "{05141963-1821-4EF5-97BF-76D0C39A4B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reform.Cli", "src\Reform.Cli\Reform.Cli.csproj", "{05141963-1821-4EF5-97BF-76D0C39A4B68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reform.Core", "src\Reform.Core\Reform.Core.csproj", "{7C5F4FA2-69DD-44CA-8EEE-F756E31F4E22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reform.Core", "src\Reform.Core\Reform.Core.csproj", "{7C5F4FA2-69DD-44CA-8EEE-F756E31F4E22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reform.Test", "tests\Reform.Test\Reform.Test.csproj", "{2B1E33C7-2094-4112-9009-6CD48A30D2DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reform.Test", "tests\Reform.Test\Reform.Test.csproj", "{2B1E33C7-2094-4112-9009-6CD48A30D2DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Octopus.CoreParsers.Hcl", "src\Octopus.Core.Parsers.Hcl\Octopus.CoreParsers.Hcl.csproj", "{E7474D77-A96B-4CDF-BA46-021C61D12F0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Octopus.CoreParsers.Hcl.Tests", "tests\Octopus.Core.Parsers.Hcl.Tests\Octopus.CoreParsers.Hcl.Tests.csproj", "{2108EC1D-44C3-43FF-98C4-095256EA3D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{2B1E33C7-2094-4112-9009-6CD48A30D2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1E33C7-2094-4112-9009-6CD48A30D2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1E33C7-2094-4112-9009-6CD48A30D2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7474D77-A96B-4CDF-BA46-021C61D12F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7474D77-A96B-4CDF-BA46-021C61D12F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7474D77-A96B-4CDF-BA46-021C61D12F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7474D77-A96B-4CDF-BA46-021C61D12F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2108EC1D-44C3-43FF-98C4-095256EA3D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2108EC1D-44C3-43FF-98C4-095256EA3D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2108EC1D-44C3-43FF-98C4-095256EA3D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2108EC1D-44C3-43FF-98C4-095256EA3D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

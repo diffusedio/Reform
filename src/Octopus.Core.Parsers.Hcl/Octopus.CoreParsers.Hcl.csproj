@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Octopus.CoreParsers.Hcl</AssemblyName>
+    <RootNamespace>Octopus.CoreParsers.Hcl</RootNamespace>
+  </PropertyGroup>  
+
+  <ItemGroup>
+    <PackageReference Include="Octopus.CoreUtilities" Version="1.1.2" />
+    <PackageReference Include="Sprache" Version="2.3.1" />
+  </ItemGroup>
+
+</Project>
