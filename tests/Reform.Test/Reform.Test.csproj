@@ -23,4 +23,10 @@
     <ProjectReference Include="..\..\src\Reform.Core\Reform.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Cases\test1.hcl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
