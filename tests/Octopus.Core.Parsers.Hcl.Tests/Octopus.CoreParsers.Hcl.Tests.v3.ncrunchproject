@@ -2,9 +2,6 @@
   <Settings>
     <IgnoredTests>
       <FixtureTestSelector>
-        <FixtureName>Octopus.CoreParsers.Hcl.Hcl2TemplateParserTest</FixtureName>
-      </FixtureTestSelector>
-      <FixtureTestSelector>
         <FixtureName>Octopus.CoreParsers.Hcl.HclTemplateParserTest</FixtureName>
       </FixtureTestSelector>
     </IgnoredTests>

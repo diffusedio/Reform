@@ -8,8 +8,7 @@ namespace Octopus.CoreParsers.Hcl
         protected string TerraformLoadTemplate(string fileName, string directory = "TemplateSamples")
         {
             var templatesPath = Path.Combine(
-                Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
-                @"Octopus\CoreParsers\Hcl\" + directory);
+                Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? string.Empty, @"Octopus/CoreParsers/Hcl/" + directory);
 
             return HclParser.NormalizeLineEndings(File.ReadAllText(Path.Combine(templatesPath, fileName))).Trim();
         }
