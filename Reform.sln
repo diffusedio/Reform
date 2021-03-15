@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Octopus.CoreParsers.Hcl", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Octopus.CoreParsers.Hcl.Tests", "tests\Octopus.Core.Parsers.Hcl.Tests\Octopus.CoreParsers.Hcl.Tests.csproj", "{2108EC1D-44C3-43FF-98C4-095256EA3D9B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parser", "Parser", "{3F8CD855-BF80-450D-9BE9-E255235A1E77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7474D77-A96B-4CDF-BA46-021C61D12F0B} = {3F8CD855-BF80-450D-9BE9-E255235A1E77}
+		{2108EC1D-44C3-43FF-98C4-095256EA3D9B} = {3F8CD855-BF80-450D-9BE9-E255235A1E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {414A123F-A4EF-4A39-AF8D-5946B6F55DAF}
