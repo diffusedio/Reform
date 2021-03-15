@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Reform.Core\Reform.Core.csproj" />
+  </ItemGroup>
+
 </Project>
